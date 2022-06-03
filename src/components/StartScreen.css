@@ -1,0 +1,35 @@
+.start {
+  position: relative;
+}
+
+.start h1 {
+  line-height: 4.5rem;
+  text-align: left;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.start h1 span {
+  
+  font-size: 7rem;
+  text-transform: uppercase;
+  letter-spacing: -4px;
+  font-weight: 700;
+}
+
+.start .card {
+  font-size: 7rem;
+  font-weight: 700;
+  display: inline-block;
+  position: absolute;
+  top: 80px;
+  left: 175px;
+  border-radius: 3px;
+  padding: 0 10px;
+  background-color: goldenrod;
+  color: #1d2d69;
+  box-shadow: -5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+

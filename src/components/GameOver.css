@@ -1,0 +1,13 @@
+.end h2 span {
+  color: goldenrod;
+  font-size: 1.5em;
+}
+
+.end h2  {
+  margin-bottom: 50px;
+}
+
+.end h1 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}

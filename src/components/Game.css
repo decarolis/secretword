@@ -1,0 +1,92 @@
+.game {
+  
+  max-width: 100%;
+}
+
+.game h1 {
+  font-size: 2.5rem;
+}
+
+.tip span {
+  color: goldenrod;
+  font-weight: bold;
+  
+}
+
+.wordContainer {
+  margin: 1.5em 0;
+  border: 20px solid goldenrod;
+  display: flex;
+  
+  border-radius: 5px;
+  box-shadow: -5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.letter,
+.blankSquare {
+  font-size: 70px;
+  line-height: 1.5em;
+  border: 3px solid black;
+  height: 100px;
+  width: 100px;
+  text-transform: uppercase;
+  background-color: #fff;
+  align-content: center;
+  color: black;
+  font-weight: bold;
+  box-shadow: -2px 2px 10px 1px rgba(0, 0, 0, 0.5) inset;
+  flex-grow: 1;
+}
+
+.letterContainer p {
+  margin-bottom: 1.2em;
+}
+
+.letterContainer form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letterContainer input {
+  border: 5px solid black;
+  height: 50px;
+  width: 50px;
+  font-size: 2rem;
+  text-align: center;
+  margin-right: 1em;
+  text-transform: uppercase;
+  box-shadow: -2px 2px 10px 1px rgba(0, 0, 0, 0.5) inset;
+}
+
+.letterContainer input:focus {
+  outline: none;
+}
+
+.wrongLettersContainer {
+  margin-top: 30px;
+}
+
+.wrongLettersContainer span {
+  color: goldenrod;
+  text-transform: uppercase;
+}
+
+.points {
+  margin-top: 0px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.points span {
+  color: goldenrod;
+}
+
+@media screen and (max-width: 600px) {
+  .letter,
+  .blankSquare {
+    font-size: 50px;
+    line-height: 1.5em;
+    height: 70px;
+    width: 60px;
+  }  
+}
